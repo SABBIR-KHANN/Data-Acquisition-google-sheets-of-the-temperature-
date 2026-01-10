@@ -6,13 +6,13 @@
 #include <DallasTemperature.h>
 #include <NTPClient.h>
 #include <WiFiUdp.h>
-const char* GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx4iw8C_bY5xsPrlhbtI_8RPL8YK8f1FgFIArmzLasP89qvwsfSo_DissxwHx8CeSww/exec";
+const char* GOOGLE_SCRIPT_URL = "https://script.google.com/macros*********************************************************/exe";
 unsigned long lastGoogleSend = 0;
 const unsigned long GOOGLE_SEND_INTERVAL = 300000UL;  // 5 minutes
 // ---------------- WIFI + MQTT CONFIG ----------------
-const char* ssid = "CORTANA";
-const char* password = "Hitman10";
-const char* mqtt_server = "192.168.1.106";
+const char* ssid = "*******";
+const char* password = "*******";
+const char* mqtt_server = "**********";
 const int mqtt_port = 1883;
 const char* mqtt_control_topic = "home/relay/cmd";
 WiFiClient espClient;
