@@ -8,7 +8,7 @@
 #include <WiFiUDP.h>
 #include <EEPROM.h>
 
-const char* GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx4iw8C_bY5xsPrlhbtI_8RPL8YK8f1FgFIArmzLasP89qvwsfSo_DissxwHx8CeSww/exec";
+const char* GOOGLE_SCRIPT_URL = "*********************************************";
 unsigned long lastGoogleSend = 0;
 const unsigned long GOOGLE_SEND_INTERVAL = 300000UL;
 
@@ -21,9 +21,9 @@ const unsigned long GOOGLE_SEND_INTERVAL = 300000UL;
 #define VALID_FLAG   0xAB
 
 // ---------------- CREDENTIALS ----------------
-char stored_ssid[32]     = "CORTANA";
-char stored_password[64] = "Hitman10";
-char stored_mqtt[32]     = "192.168.1.104";
+char stored_ssid[32]     = "****************";
+char stored_password[64] = "*************";
+char stored_mqtt[32]     = "************";
 
 // ---------------- WIFI + MQTT ----------------
 WiFiClient espClient;
